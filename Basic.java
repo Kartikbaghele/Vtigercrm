@@ -17,7 +17,7 @@ public class Basic {
 	   WebElement marketing = driver.findElement(By.xpath("//span[text()='MARKETING']"));
 	   Actions a=new Actions(driver);
 	   a.moveToElement(marketing).perform();
-	   driver.findElement(By.xpath("//span[text()=' Organizations']")).click();
+	  
 	}
 
 }
